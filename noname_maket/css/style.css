@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 1920px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #ff5e00;
+}
+
+.logo img {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 240px;
+    top: 0px;
+}
+
+nav {
+    position: fixed; 
+    width: 100%; 
+    height: 50px;
+    background-color: #212121;
+    z-index: 2; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 650px;
+    padding: 10px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+
+.menu .menu_link {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.menu .menu_item {
+    border-right: 3px solid white;
+    padding-right: 28px;
+    margin: 7px;
+}
+
+.subheader {
+    position: absolute;
+    top: 50px; 
+    width: 100%;
+    height: 82px;
+}
+
+
+.subheader .subheader_logo img {
+    height: 55px;
+    width: 55px;
+    margin-top: 16px;
+    margin-left: 31px;
+}
+
+.subheader .subheader_official {
+    position: absolute;
+    top: 31px;
+    margin-left: 31px;
+    left: 64px;
+    opacity: 0.6;
+    color: #000000;
+    font-size: 16px;
+}
+
+.subheader .subheader_call {
+    color: #000000;
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 31px;
+    margin-bottom: 9px;
+}
+
+.subheader .subheader_phone {
+    margin-left: 41px;
+    margin-top: 12px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 12px;
+}
+
+.guest {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1629px;
+}
+
+.preview img{
+    position: absolute;
+width: 620px;
+height: 375px;
+left: 1061px;
+top: 250px;
+}
+
+.zagalovok h1 {
+    position: absolute;
+width: 231px;
+height: 28px;
+left: 277px;
+top: 355px;
+}
+
+.zagalovok p {
+    position: absolute;
+width: 262px;
+height: 84px;
+left: 277px;
+top: 430px;
+}
+
+.zagalovok button {
+    position: absolute;
+width: 256px;
+height: 55px;
+left: 277px;
+top: 502px;
+background: #000000;
+border-radius: 5px;
+color: white;
+}
+
+
+.advantage_zagalovok {
+    position: absolute;
+width: 359px;
+height: 42px;
+left: 808px;
+top: 1191px;
+}
+
+.advantage .icon-1 img {
+    position: absolute;
+width: 301px;
+height: 305px;
+left: 277px;
+top: 1420px;
+}
+
+.advantage .icon-1 p {
+    position: absolute;
+    text-align: center;
+width: 279px;
+height: 28px;
+left: 288px;
+top: 1540px;
+font-size: 21px;
+line-height: 28px;
+color: #1f9ee7;
+}
+
+.advantage .icon-3 p {
+    position: absolute;
+    text-align: center;
+width: 279px;
+height: 28px;
+left: 1350px;
+top: 1650px;
+font-size: 15px;
+line-height: 20px;
+color: #000000;
+}
+
+.advantage .icon-2 img {
+    position: absolute;
+width: 301px;
+height: 255px;
+left: 809px;
+top: 1420px;
+}
+
+.advantage .icon-3 img {
+    position: absolute;
+width: 301px;
+height: 305px;
+left: 1341px;
+top: 1420px;
+}
+
+.our_command .command_zagalovok {
+    position: absolute;
+width: 252px;
+height: 42px;
+left: 834px;
+top: 2211px;
+}
+
+.card-1 img {
+    position: absolute;
+width: 300px;
+height: 204px;
+left: 277px;
+top: 2382px;
+}
+
+
+.card-1 .info-1 {
+    position: absolute;
+    width: 79px;
+    height: 42px;
+    left: 350px;
+    top: 2607px;
+}
+
+.card-2 img {
+    position: absolute;
+    width: 300px;
+    height: 204px;
+    left: 749px;
+    top: 2382px;
+}
+
+.card-2 .info-2 {
+    position: absolute;
+    width: 79px;
+    height: 42px;
+    left: 834px;
+    top: 2607px;
+}
+
+.card-3 img {
+    position: absolute;
+width: 300px;
+height: 204px;
+left: 1221px;
+top: 2385px;
+}
+
+.card-3 .info-3 {
+    position: absolute;
+width: 79px;
+height: 42px;
+left: 1315px;
+top: 2610px;
+}
+
+.footer {
+    background: #ffdc7d;
+    position: absolute;
+    width: 1920px;
+    height: 726px;
+    left: 0px;
+    top: 3175px;
+}
+
+.footer-projects h1 {
+    position: absolute;
+    width: 388px;
+    height: 212px;
+    left: 178px;
+    top: 260px;
+}
+
+.footer-projects ul {
+    position: absolute;
+width: 200px;
+height: 100px;
+left: 178px;
+top: 342px;
+list-style-type: none;
+line-height: 42px;
+}
+
+
+.footer-contacts h1 {
+    position: absolute;
+    width: 388px;
+    height: 212px;
+    left: 698px;
+    top: 260px;
+}
+
+
+.footer-contacts ul {
+    position: absolute;
+width: 307px;
+height: 212px;
+left: 714px;
+top: 342px;
+list-style-type: none;
+}
+
+.footer-social h1 {
+    position: absolute;
+width: 424px;
+height: 42px;
+left: 1291px;
+top: 260px;
+}
+
+.footer-icons-1 img {
+    position: absolute;
+    width: 92px;
+height: 92px;
+left: 1285px;
+top: 331px;
+}
+
+.footer-icons-2 img {
+    position: absolute;
+width: 92px;
+height: 92px;
+left: 1429px;
+top: 331px;
+}
+
+.footer-icons-3 img {
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 1573px;
+top: 331px;
+}
+
+
